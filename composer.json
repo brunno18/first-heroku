@@ -5,5 +5,12 @@
 	},
 	"require-dev": {
 		"heroku/heroku-buildpack-php": "*"
-	}
+	},
+    "extra": {
+        "heroku": {
+            "compile": [
+                "chmod -R 777 /app/cache/"
+            ]
+        }
+    }
 }
