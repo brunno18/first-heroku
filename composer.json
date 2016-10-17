@@ -15,6 +15,7 @@
     },
     "scripts": {
         "compile": [
+            "mkdir app/cache",
             "chmod -R 777 app/cache"
         ]
     }
