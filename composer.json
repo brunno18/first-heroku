@@ -12,5 +12,10 @@
                 "chmod -R 777 /app/cache/"
             ]
         }
+    },
+    "scripts": {
+        "compile": [
+            "chmod -R 777 app/cache"
+        ]
     }
 }
